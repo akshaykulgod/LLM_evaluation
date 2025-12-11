@@ -1,0 +1,7 @@
+Why did you decide to build the solution this way, and not some other way?
+
+I designed the evaluator around cheap, deterministic embedding checks plus lightweight heuristics because this approach gives reliable, explainable signals for relevance/completeness/hallucination with minimal latency and cost — and it’s easy to scale by adding caching, batching, and optional async deep checks.
+
+If we run your script at scale (millions of daily conversations between humans and AI), how have you ensured that the latency and costs for real-time evaluations will remain at a minimum?
+
+Latency and cost are minimized by caching embeddings, batching encode calls, and reusing precomputed context embeddings—this avoids repeated, expensive model calls. The real-time path stays lightweight, while heavier checks can run asynchronously or on sampled traffic. This keeps per-request overhead extremely low even at large scale.

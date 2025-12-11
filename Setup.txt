@@ -1,0 +1,8 @@
+Install required -
+pip install sentence-transformers scikit-learn spacy python-dateutil tiktoken
+python -m spacy download en_core_web_sm
+
+Install sample_chat.json and sample_contexts.json in the project directory 
+
+Run the evaluator:
+python evaluate.py --chat sample_chat.json --contexts sample_contexts.json --out report.json

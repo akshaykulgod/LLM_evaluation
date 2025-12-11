@@ -1,0 +1,7 @@
+{
+"snippets": [   
+    {"id": "doc1", "text": "Supervised learning is a type of machine learning that uses labeled data. Algorithms include logistic regression, decision trees, and random forests. It is mainly used for tasks like classification and regression."},
+{"id": "doc2", "text": "Unsupervised learning deals with unlabeled data. Common algorithms are k-means clustering, hierarchical clustering, and PCA for dimensionality reduction. It is often used for exploratory data analysis and feature extraction."},
+{"id": "doc3", "text": "Semi-supervised learning is a mix of labeled and unlabeled data. Reinforcement learning is different: it relies on rewards rather than labeled examples."}
+]
+}

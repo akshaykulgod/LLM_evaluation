@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "generated_at": "2025-12-11T08:40:13.099277Z",
+    "chat_file": "sample_chat.json",
+    "context_file": "sample_contexts.json"
+  },
+  "relevance": {
+    "relevance_score": 0.7842118144035339,
+    "sim_to_query": 0.7575724720954895,
+    "sim_to_top_context": 0.8019713759422302,
+    "top_k_context_sims": [
+      0.7869096398353577,
+      0.8019713759422302,
+      0.6362625360488892
+    ]
+  },
+  "completeness": {
+    "completeness_score": 0.3333333333333333,
+    "expected_points": [
+      "Algorithms include logistic regression, decision trees, and random forests.",
+      "Common algorithms are k-means clustering, hierarchical clustering, and PCA for dimensionality reduction.",
+      "Reinforcement learning is different: it relies on rewards rather than labeled examples.",
+      "Semi-supervised learning is a mix of labeled and unlabeled data.",
+      "Supervised learning is a type of machine learning that uses labeled data.",
+      "It is mainly used for tasks like classification and regression."
+    ],
+    "covered_points": [
+      {
+        "point": "Algorithms include logistic regression, decision trees, and random forests.",
+        "covered": false,
+        "similarity": 0.527411162853241
+      },
+      {
+        "point": "Common algorithms are k-means clustering, hierarchical clustering, and PCA for dimensionality reduction.",
+        "covered": false,
+        "similarity": 0.5200181603431702
+      },
+      {
+        "point": "Reinforcement learning is different: it relies on rewards rather than labeled examples.",
+        "covered": false,
+        "similarity": 0.4361969530582428
+      },
+      {
+        "point": "Semi-supervised learning is a mix of labeled and unlabeled data.",
+        "covered": true,
+        "similarity": 0.7101202607154846
+      },
+      {
+        "point": "Supervised learning is a type of machine learning that uses labeled data.",
+        "covered": true,
+        "similarity": 0.7901616096496582
+      },
+      {
+        "point": "It is mainly used for tasks like classification and regression.",
+        "covered": false,
+        "similarity": 0.3906329274177551
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "Supervised methods include logistic regression and random forests; unsupervised include k-means and PCA.",
+      "status": "supported",
+      "best_similarity": 0.7086607217788696,
+      "best_context_snippet": {
+        "id": "doc2",
+        "text": "Unsupervised learning deals with unlabeled data. Common algorithms are k-means clustering, hierarchical clustering, and PCA for dimensionality reduction. It is often used for exploratory data analysis and feature extraction."
+      }
+    }
+  ],
+  "hallucination_risk": 0.0,
+  "latency_and_cost": {
+    "latency_ms": 1350.0,
+    "estimated_tokens": 94,
+    "estimated_cost_usd": 0.00188,
+    "model": "gpt-like"
+  }
+}

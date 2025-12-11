@@ -1,0 +1,9 @@
+{
+"user_message": "Explain the difference between supervised and unsupervised learning.",
+"assistant_reply": "Supervised learning uses labeled data to train models, where each example has an input and a target label. Unsupervised learning finds patterns in unlabeled data using clustering or dimensionality reduction techniques. Supervised methods include logistic regression and random forests; unsupervised include k-means and PCA. Supervised models often require more labeled examples and are used for prediction, while unsupervised are used for exploration.",
+"request_sent_ts": "2025-12-11T09:01:00Z",
+"response_received_ts": "2025-12-11T09:01:01.350Z",
+"prompt": "Explain the difference between supervised and unsupervised learning.",
+"model": "gpt-like",
+"pricing_per_1k": 0.02
+}
